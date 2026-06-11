@@ -1,0 +1,8 @@
+{
+  // Use the project virtual environment created in the README steps.
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "python.terminal.activateEnvironment": true,
+  // So sibling imports inside src/ (import config, import data, ...) resolve.
+  "python.analysis.extraPaths": ["${workspaceFolder}/src"],
+  "terminal.integrated.cwd": "${workspaceFolder}"
+}
